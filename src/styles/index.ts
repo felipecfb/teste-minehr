@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     --background: #E5E5E5;
     --dark-purple: #5D405C;
     --gray-3: #828282;
+    --gray: #F6F6F6;
 }
 @media screen and (max-width: 1080px) {
     html {
