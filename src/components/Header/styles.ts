@@ -15,6 +15,7 @@ export const TextContainer = styled.div`
 export const Title = styled.h1`
     color: var(--dark-purple);
     font-size: 28px;
+    margin-bottom: .5rem;
 `;
 
 export const Description = styled.span`
@@ -24,6 +25,11 @@ export const Description = styled.span`
 
 export const Filter = styled.div`
     display: flex;
+`;
+
+export const FilterIcon = styled.img`
+    max-width: 12px;
+    margin-right: .5rem;
 `;
 
 export const FilterButton = styled.button`

@@ -1,6 +1,8 @@
 import React from "react";
 import * as S from "./styles";
 
+import filterIcon from '../../assets/filterIcon.svg';
+
 export default function Header() {
     return (
         <S.Container>
@@ -14,6 +16,7 @@ export default function Header() {
             </S.TextContainer>
             <S.Filter>
                 <S.FilterButton>
+                    <S.FilterIcon src={filterIcon} />
                     Filtrar
                 </S.FilterButton>
             </S.Filter>
