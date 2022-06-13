@@ -5,6 +5,10 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   padding: 1rem 2rem;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const Graph = styled.div`
@@ -14,6 +18,12 @@ export const Graph = styled.div`
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 1rem;
+
+  @media screen and (max-width: 1024px) {
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+
 `;
 
 export const TitleContainer = styled.div`
